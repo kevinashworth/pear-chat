@@ -1,14 +1,12 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
-const os = require("os");
 const crypto = require("crypto");
 const PearRuntime = require("pear-runtime"); // spawn Bare workers from Node
 
-// Deterministic per-username topic so two local windows meet,
-// while other readers running the same example stay separate by default
+// my personal topic
 const topic = crypto
   .createHash("sha256")
-  .update("pear-getting-started-chat:flibbertigibbet:" + os.userInfo().username)
+  .update("pear-getting-started-chat:flibbertigibbet:17008c1f-53b3-4405-9989-b8c7db413023")
   .digest("hex");
 
 let worker = null; // Bare worker handle (duplex stream)
