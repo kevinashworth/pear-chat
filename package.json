@@ -1,8 +1,6 @@
 {
   "name": "pear-chat",
-  "productName": "PearChat",
   "version": "1.0.0",
-  "upgrade": "pear://qxenz5wmspmryjc13m9yzsqj1conqotn8fb4ocbufwtz9mtbqq5o",
   "description": "A peer-to-peer desktop chat built on the hello-pear-electron shell",
   "license": "Apache-2.0",
   "author": "",
@@ -15,7 +13,11 @@
     "build": "npm run build:db && npm run build:tailwind",
     "start": "electron-forge start -- --no-updates",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
   "dependencies": {
     "autobase": "^7.28.1",
@@ -49,9 +51,13 @@
     "electron": "^40.2.1",
     "electron-forge-plugin-prune-prebuilds": "^1.0.1",
     "electron-forge-plugin-universal-prebuilds": "^1.0.0",
+    "oxfmt": "0.61.0",
+    "oxlint": "1.76.0",
     "pear-electron-forge-maker-appimage": "^2.0.0",
     "pear-electron-forge-maker-flatpak": "^0.0.6",
     "pear-electron-forge-maker-snap": "^1.0.0",
     "tailwindcss": "^4.3.0"
-  }
+  },
+  "productName": "PearChat",
+  "upgrade": "pear://qxenz5wmspmryjc13m9yzsqj1conqotn8fb4ocbufwtz9mtbqq5o"
 }
