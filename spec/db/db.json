@@ -12,9 +12,7 @@
       "indexes": [],
       "schema": "@pear-chat/invite",
       "derived": false,
-      "key": [
-        "id"
-      ],
+      "key": ["id"],
       "trigger": null
     },
     {
@@ -27,9 +25,7 @@
       "indexes": [],
       "schema": "@pear-chat/message",
       "derived": false,
-      "key": [
-        "id"
-      ],
+      "key": ["id"],
       "trigger": null
     }
   ]
