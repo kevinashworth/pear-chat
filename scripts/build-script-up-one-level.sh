@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # See https://docs.pears.com/getting-started/build-a-peer-to-peer-chat/ship/#build-the-deployment-directory
-# Run it from one level up like: `./pear-chat/build-script-up-one-level.sh`
+# Run it from one level up like: `./pear-chat/scripts/build-script-up-one-level.sh`
 
 if [[ ! -f "./pear-chat/package.json" ]]; then
   echo "Error: run this script from the parent directory that contains pear-chat/." >&2

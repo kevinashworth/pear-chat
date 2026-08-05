@@ -6,12 +6,12 @@ usage() {
 Launch PearChat with an invite code on macOS.
 
 Usage:
-./launch-chat-with-invite.sh --invite INVITE [--app /path/to/PearChat.app] [--name NAME] [--storage DIR] [--reset]
+./scripts/launch-chat-with-invite.sh --invite INVITE [--app /path/to/PearChat.app] [--name NAME] [--storage DIR] [--reset]
 
 Examples:
-./launch-chat-with-invite.sh --invite abcdef...
-./launch-chat-with-invite.sh --invite abcdef... --app ./out/PearChat-darwin-x64/PearChat.app
-./launch-chat-with-invite.sh --invite abcdef... --app /Applications/PearChat.app --name user2 --storage /tmp/pear-chat-user2
+./scripts/launch-chat-with-invite.sh --invite abcdef...
+./scripts/launch-chat-with-invite.sh --invite abcdef... --app ./out/PearChat-darwin-x64/PearChat.app
+./scripts/launch-chat-with-invite.sh --invite abcdef... --app /Applications/PearChat.app --name user2 --storage /tmp/pear-chat-user2
 EOF
 }
 
