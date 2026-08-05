@@ -1,0 +1,1 @@
+I ran `pear provision pear://0.3034.htrzdet8b97gzfosz9c178pj5jy6m9x1w3e4x5sfuntxte48afyo pear://jbeqxnkr7z4tqd53witmb9h8tzcdftp5apyi358oaywkz3yhgpcy pear://0.0.jbeqxnkr7z4tqd53witmb9h8tzcdftp5apyi358oaywkz3yhgpcy` and the entire contents from the command line are in [PROVISION_FULLOUTPUT.text](./PROVISION_FULLOUTPUT.text)
