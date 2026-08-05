@@ -1,3 +1,9 @@
+# Notes to self
+
+These are notes-to-self as a I get to know the multi-step process on <https://docs.pears.com/getting-started/build-a-peer-to-peer-chat/ship/#build-the-deployment-directory>.
+
+## The Notes
+
 output of `pear touch` the first time is the <stage-link>:
 pear://htrzdet8b97gzfosz9c178pj5jy6m9x1w3e4x5sfuntxte48afyo
 
